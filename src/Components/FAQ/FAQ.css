@@ -1,0 +1,27 @@
+
+
+.accordion-item {
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.accordion-item button {
+    background-color: var(--section-color);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    padding: 18px 25px;
+    border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: var(--second-color) !important;
+}
+
+.accordion-body {
+    background-color: rgba(86, 90, 207, .1);
+    border-radius: 0 0 8px 8px;
+    font-size: 15px;
+    padding: 25px;
+}

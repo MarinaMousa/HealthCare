@@ -1,0 +1,72 @@
+.appointment-form h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.appointment-form {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    padding: 40px 35px;
+    position: relative;
+}
+
+
+.appointment-form::after {
+    border: 2px solid #565acf;
+    border-radius: 20px;
+    content: "";
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.appointment-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.appointment-form form input,
+.appointment-form form select {
+    border: 1px solid #777;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgba(86, 90, 207, .3);
+    border-radius: 8px;
+    padding: 15px 25px;
+    transition: all .3s ease-in-out;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+}
+
+.appointment-form form input::placeholder {
+    color: #000;
+}
+
+.appointment-form form button {
+    background-color: var(--second-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1;
+    padding: 20px 35px;
+    transition: var(--main-trans) ease;
+    box-shadow: 0 5px 20px 0 rgba(241, 119, 50, .3);
+}
+
+.appointment-form form button:hover {
+    background-color: rgb(248, 148, 111);
+}

@@ -1,0 +1,211 @@
+footer {
+    background: url(./../../Assets/footer.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    position: relative;
+}
+
+footer .container {
+    position: relative;
+    z-index: 20;
+    margin-top: 40px;
+}
+
+footer .row .col-lg-3 {
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: #444;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+footer .phone {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+footer .phone i {
+    background-color: var(--second-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50% 50% 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+footer .phone .number h6 {
+    color: var(--second-color);
+}
+
+footer .phone .number h4 {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+}
+
+footer .row h2 {
+    color: var(--main-color);
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+footer .row h2::after {
+    background-image: url(./../../Assets/back.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    width: 85px;
+}
+
+footer .row ul {
+    padding: 0;
+}
+
+footer .row ul li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer .row ul li:hover a {
+    color: var(--section-color);
+}
+
+footer .row li a {
+    color: #444;
+    font-size: 17px;
+    transition: var(--main-trans);
+} 
+
+footer .row form input {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    font-size: 15px;
+    font-weight: 500;
+    height: 52px;
+    margin-bottom: 20px;
+}
+
+footer .row form input:focus {
+    outline-color: var(--section-color) !important;
+}
+
+footer .row form button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    background-color: var(--second-color);
+    border: none;
+    height: 52px;
+    border-radius: 10px;
+    transition: var(--main-trans) ease;
+    box-shadow: 0 5px 20px 0 rgba(241, 119, 50, .3);
+}
+
+footer .row form button:hover {
+    background-color: rgb(248, 148, 111);
+}
+
+footer .row ul.social {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+footer .end {
+    padding-top: 25px;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+}
+
+footer .end p {
+    font-size: 17px;
+    margin: 0;
+}
+
+footer .end p span {
+    color: var(--second-color);
+    display: inline;
+}
+
+
+footer .shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+footer .shapes img {
+    position: absolute;
+    width: 80px;
+}
+
+footer .shapes img.one {
+    top: -90%;
+    left: 5%;
+    animation: side 1.8s infinite alternate;
+    transition: var(--main-trans) ease all;
+}
+
+footer .shapes img.two {
+    top: -32%;
+    left: 7%;
+    animation: moving 1.2s infinite alternate;
+    transition: var(--main-trans) ease all;
+}
+
+footer .shapes img.three {
+    top: -80%;
+    left: 89%;
+    animation: rotate 20s linear infinite;
+    transition: var(--main-trans) ease all;
+}
+
+footer .shapes img.four {
+    top: -22%;
+    left: 85%;
+    animation: side 1.8s infinite alternate;
+    transition: var(--main-trans) ease all;
+}
+
+
+@keyframes moving {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,143 @@
+.testi .row {
+    align-items: center;
+}
+
+.testi .row .col-lg-6 {
+    margin-bottom: 30px;
+}
+
+.testi .text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.testi .text h6 {
+    background-image: url(./../../Assets/h6.png);
+    background-position: 50%;
+    background-repeat: repeat;
+    color: var(--second-color);
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 3px 15px;
+}
+
+.testi .text h2 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+
+.testi .images {
+    position: relative;
+}
+
+.testi ul li {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.testi ul li img {
+    border-radius: 50%;
+    width: 65%;
+}
+
+.testi ul li.two {
+    top: 0;
+    left: 42%;
+}
+
+.testi ul li.three {
+    top: 22%;
+    left: 10%;
+}
+
+.testi ul li.four {
+    top: 63%;
+    left: 10%;
+}
+
+.testi ul li.five {
+    top: 85%;
+    left: 40%;
+}
+
+.testi ul li.six {
+    top: 63%;
+    left: 73%;
+}
+
+.testi ul li.seven {
+    top: 22%;
+    left: 73%;
+}
+
+
+.carousel-item .text {
+    background-color: var(--second-color) !important;
+    padding: 60px 35px 40px;
+    border-radius: 50px 0 50px 50px;
+    margin: 20px;
+    height: 100%;
+    height: auto;
+    text-align: left;
+    position: relative;
+    box-shadow: 0 0 30px rgba(185, 67, 0, .1);
+}
+
+.slider {
+    position: relative;
+}
+
+.slider i {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    color: #ffffff30;
+    font-size: 92px;
+    font-weight: 900;
+    z-index: 1000;
+}
+
+
+.carousel-item p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.carousel-item h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px !important;
+    height: 15px !important;
+    padding: 0;
+    border-radius: 40% !important;
+    margin-right: 5px;
+    margin-left: 5px;
+    /* margin-bottom: 20px; */
+    text-indent: -999px;
+    cursor: pointer;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+a.carousel-control-next,
+a.carousel-control-prev {
+    display: none;
+}

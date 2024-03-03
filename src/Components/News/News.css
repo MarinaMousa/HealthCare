@@ -1,0 +1,133 @@
+.news {
+    background-image: url(./../../Assets/section.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.news .row .col-lg-6 {
+    margin-bottom: 20px;
+}
+
+
+.news .text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.news .text h6 {
+    background-image: url(./../../Assets/h6.png);
+    background-position: 50%;
+    background-repeat: repeat;
+    color: var(--second-color);
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 3px 15px;
+}
+
+.news .text h2 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+
+.news .card {
+    border-radius: 10px !important;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: transparent !important;
+    transition: var(--main-trans) ease all;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    text-align: left;
+    width: 100% !important;
+}
+
+@media (max-width: 768px) {
+    .news .row .card {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.news .card:hover {
+    border: 1px solid rgba(86, 90, 207, .2) !important;
+    box-shadow: none;
+}
+
+.news .card img {
+    border-radius: 10px;
+}
+
+.news .card .dr {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 0;
+    text-align: left;
+    color: var(--second-color);
+}
+
+.news .card img.two {
+    border-radius: 50%;
+    width: 10%;
+    /* margin-right: 20px; */
+}
+
+.news .card h3 {
+    color: var(--main-color);
+    word-spacing: 2px;
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.news .card a {
+    padding: 0;
+}
+
+.news .card button {
+    background-color: #fff;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--section-color);
+    color: var(--section-color);
+    font-size: 15px;
+    padding: 7px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: var(--main-trans) ease;
+}
+
+.news .card button:hover {
+    background-color: var(--section-color);
+    color: #fff;
+}
+
+.news .card a button i {
+    background-color: var(--section-color);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    transition: var(--main-trans) ease;
+}
+
+.news .card a button:hover i {
+    color: #fff;
+}

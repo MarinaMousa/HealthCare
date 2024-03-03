@@ -1,0 +1,75 @@
+.services .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+.services .content {
+    background-color: #fff;
+    background-image: url(./../../Assets/ser.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, .08);
+    overflow: hidden;
+    padding: 40px;
+    z-index: 1;
+    text-align: left;
+}
+
+.services .media {
+    margin-bottom: 20px;
+    position: relative;
+    background: #fff;
+    border: 2px solid rgba(86, 90, 207, .1);
+    border-radius: 13px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+
+.services .media i {
+    color: var(--main-color);
+    font-size: 50px;
+    transition: var(--main-trans) all;
+}
+
+.services .content:hover i {
+    animation: vibes 0.5s alternate;
+}
+
+.services h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #696969;
+}
+
+.services button {
+    background-color: #e1e2f6;
+    border: 2px solid #e1e2f6;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.services button a {
+    color: var(--section-color);
+}
+
+.services .content:hover button {
+    background-color: var(--section-color);
+}
+
+.services .content:hover a {
+    color: #fff;
+}
